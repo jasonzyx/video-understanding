@@ -1,0 +1,33 @@
+# Example possession configuration
+# Replace these with actual possession timestamps from your video
+
+possessions:
+  - start: 0.0      # seconds
+    end: 12.0       # seconds
+    metadata:
+      offense: "Team A"
+      defense: "Team B"
+
+  - start: 15.0
+    end: 28.0
+    metadata:
+      offense: "Team B"
+      defense: "Team A"
+
+  - start: 32.0
+    end: 45.0
+    metadata:
+      offense: "Team A"
+      defense: "Team B"
+
+  - start: 48.0
+    end: 65.0
+    metadata:
+      offense: "Team B"
+      defense: "Team A"
+
+  - start: 68.0
+    end: 82.0
+    metadata:
+      offense: "Team A"
+      defense: "Team B"
